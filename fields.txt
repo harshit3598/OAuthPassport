@@ -1,0 +1,34 @@
+transaction_id -> there in db as transactionId
+transactionDate -> orderDate
+order_id    -> is it the id of order table or should we take it separately
+order_reference -> ask and ADD
+product_name is package_name ?  if yes then no need to add
+product_id is package_id ? if yes then no need to add
+quantity already present
+customer_id from customer table ?
+firstname from customers table ? if yes then no need to add
+lastname from customers table ? if yes then no need to add
+address1    from customer address table ? if yes then no need to add
+address 2 from customer address table ? if yes then no need to add
+phone_mobile from customers table ? if yes then no need to add
+activation_date is startDate so no need to add
+**activation_meal (but difference between activation_meal and meals is still not known)
+pork_innards -> in specialRequests
+menu -> startMeal 
+rice -> special requests
+**post_surgery -> need to add (query)
+menu_cycle -> 1 or 2
+soup -> special requests
+meals -> mealType present
+vvip -> Y/N (ADD)
+**addons
+remarks already there
+
+ADD FIELDS in order table
+1) order_reference -> tm_order_reference
+2) order_id -> tm_order_id
+
+ADD FIELDS in customer table
+1) customer_id -> tm_customer_id
+
+wherever ** is present, we need to discuss that field
