@@ -5,7 +5,7 @@ const passport = require('passport');
 require('dotenv').config();
 
 var app = express();
-
+//require coode
 require('./config/database');
 require('./models/user');
 require('./config/passport')(passport);
